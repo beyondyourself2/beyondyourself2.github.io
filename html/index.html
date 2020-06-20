@@ -1,0 +1,532 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>江西软件职业技术大学思政网</title>
+<link rel="shortcut icon" href="../image/logo.ico">
+<style type="text/css">
+	*{
+			margin: 0;                    /* 定义外边距*/
+			padding: 0;                   /* 定义内边距*/
+	}
+	body{
+		text-align: center;
+		background-size: cover;
+		background-color: darkgray;
+	}
+	#zw{
+		width: 980px;
+		/*height: 1980px;*/		/*此行最后要删除*/
+		/* background-color: red; */	/*此行最后要删除*/
+		display:inline-block;
+		
+	}
+	#tou{
+		width: 980px;
+		height: 245px;
+		background-image: url(../image/e5.jpg);	/*此行最后要删除*/
+		background-size: cover;
+		margin-bottom: 5px;
+		border-radius: 3%;
+	}
+	.ximg{
+		float: left;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	.ximg1{
+		float: left;
+		color: red;
+		font-size: 40px;
+		margin-left: 10px;
+		margin-top: 20px;
+		font-family: kaiti;
+	}
+	#sheng{
+		width: 980px;
+		/*height: 245px;*/		/*此行最后要删除*/
+		/* background-color:chartreuse; */	/*此行最后要删除*/
+	}
+	.nav{
+		
+		background-color: #960613;	/*此行最后要删除*/
+		margin-bottom: 5px;
+	}
+	.nav a{
+		display: inline-block;
+		width: 120px;
+		height: 50px;
+		color: aliceblue;
+		/*text-align: center;*/
+		line-height: 50px;
+		background-color: #960635; 
+		text-decoration: none;
+	}
+	.nav a:hover{
+		background-image: url(../image/bg5.png);
+		color: red;
+		border-radius: 8%;
+	}
+	.lbt{
+		width: 980px;
+		height: 245px;	/*此行最后要修改高度*/
+		background-color: burlywood;	/*此行最后要删除*/
+		margin-bottom: 5px;
+	}
+	.sub{
+		width: 970px;
+		height: 515px;	/*此行最后可能要修改高度*/
+		/*background-color: cadetblue;*/	/*此行最后要修改颜色*/
+		margin-bottom: 5px;
+		/*padding: 5px;*/
+	}
+	.skuang{
+		width: 980px;
+		height: 250px;	/*此行最后可能要修改高度*/
+		/*background-color:blueviolet;*/	/*此行最后要修改颜色*/
+		display: inline-block;
+		line-height: 250;
+		margin-top: 5px;
+		
+	}
+	.kuang1{
+		width: 645px;
+		height: 250px;	/*此行最后可能要修改高度*/
+		/*background-color: deeppink;*/		/*1此行最后要删除*/
+		margin-right: 5px;
+		float: left;
+	}
+	.bt1{
+		width: 645px;
+		height: 40px;
+		background-color: antiquewhite;
+		line-height: 40px;
+	}
+	.bt{
+		width: 320px;
+		height: 40px;
+		background-color: antiquewhite;
+		line-height: 40px;
+	}
+	.bt a,.bt1 a{
+		width: 100px;
+		height: 40px;
+		display: inline-block;
+		text-decoration: none;
+		float: left;
+		color: black;
+		background-color: brown
+	}
+	.zt{
+		font-size: 10px;
+	}
+	.nr{
+		width: 645px;
+		height: 200px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-color: aliceblue;
+	}
+	.szt{
+		width: 200px;
+		height: 200px;
+		background: red;
+		margin-left: 10px;
+		line-height: 200px;
+		float: left;
+
+	}
+	.szn{
+		width: 420px;
+		height: 200px;
+		/*background: red;*/
+		line-height: 200px;
+		margin-right: 10px;
+		float: right;
+		text-align: center;
+	}
+	td{
+		line-height: 25px;
+	}
+	td a {
+		color: black;
+		text-decoration: none;
+	}
+	.kuang2{
+		width: 320px;
+		height: 250px;	/*此行最后可能要修改高度*/
+		/*background-color: deeppink;*/	/*此行最后可能要删除*/
+		
+		float: right;
+	}
+	.kuang3{
+		width: 320px;
+		height: 250px;	/*此行最后可能要修改高度*/
+		/*background-color: deeppink;*/
+		float: left;
+	}
+	.kuang4{
+		width: 320px;
+		height: 250px;	/*此行最后可能要修改高度*/
+		/*background-color: deeppink;*/
+		float: left;
+		margin-left: 5px;
+	}
+	
+	.kn{
+		width: 320px;
+		height: 200px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		
+		background-color: aliceblue;
+		line-height: 200px;
+		float: right;
+	}
+	.tz{
+		width: 310px;
+		height: 200px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#wei{
+		width: 980px;
+		height:70px;	/*此行最后要修改高度*/
+		/*background-color: blue;*/		/*此行最后要删除*/
+		background-color: blueviolet;
+		
+	}
+	.foot{
+		line-height: 30px;
+		color: aliceblue;
+	}
+	.foot font{
+		 font-size: 9pt;
+	}
+	#zh{
+		text-decoration: none;
+		color: aliceblue;
+	}
+</style>
+<!--<link href="tou.css" rel="stylesheet"/>
+<link href="sheng.css" rel="stylesheet"/>
+<link href="wei.css" rel="stylesheet"/>-->
+<script language="javascript" type="text/javascript" src="xp.js"></script>
+</head>
+
+<body>
+	<!--最外层盒子-->
+	<div id="zw">
+		
+		<!--网站头-->
+		<div id="tou">
+			<!--学校LOGO-->
+			<div class="ximg">
+				<img src="../image/LOGO.png" width="400px">
+			</div>
+			<!--思政LOGO-->
+			<div class="ximg1">
+				<a>思政网</a>
+			</div>
+		</div>
+		
+		<!--网站主体-->
+		<div id="sheng">
+			<!--导航栏-->
+			<div class="nav">
+				<a href="index.html" target="_self">首页</a>
+				<a href="#">时政要闻</a>
+				<a href="kuangjia.html" target="_self">思政教育</a>
+				<a href="#">理论学习</a>
+				<a href="#">校园文化</a>
+				<a href="#">社会实践</a>
+			</div>
+			
+			<!--轮播图-->
+			<div class="lbt">
+				<img id="xp" src="../image/zz4.jpg" height="245" width="980">
+			</div>
+			
+			<!--内容-->
+			<div class="sub">
+				<!--上部分-->
+				<div class="skuang">
+					<!--上左部分-->
+					<div class="kuang1">
+						<!--时政要闻标题-->
+						<div class="bt1">
+							<a href="#">时政要闻</a>
+						</div>
+						
+						<!--时政要闻标题下的内容-->
+						<div class="nr">
+							<!--左边的图片-->
+							<div class="szt">
+								<img src="../image/zz3.jpg" width="200px" height="200px">
+							</div>
+							
+							<!--右边的内容-->
+							<div class="szn zt">
+								<table>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					
+					<!--上右部分-->
+					<div class="kuang2">
+						<div class="bt">
+							<a href="#">思政教育</a>
+						</div>
+						<!--思政教育标题下的内容-->
+						<div class="kn">
+							<div class="tz zt">
+								<table>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--下部分-->
+				<div class="skuang">
+					<!--下左部分-->
+					<div class="kuang3">
+						<div class="bt">
+							<a href="#">理论学习</a>
+						</div>
+						<!--理论学习标题下的内容-->
+						<div class="kn">
+							<div class="tz zt">
+								<table>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<!--下中部分-->
+					<div class="kuang4">
+						<div class="bt">
+							<a href="#">校园文化</a>
+						</div>
+						<!--思校园文化标题下的内容-->
+						<div class="kn">
+							<div class="tz zt">
+								<table>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					
+					
+					<!--下右-->
+					<div class="kuang2">
+						<div class="bt">
+							<a href="#">社会实践</a>
+						</div>
+						<!--社会实践标题下的内容-->
+						<div class="kn">
+							<div class="tz zt">
+								<table>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+									<tr >
+										<td><img src="../image/ico.gif"></td>
+										<td align="left"><a href="#" target="_blank">封建时代就简单说几句</a></td>
+										<td align="right" width="1%">2018</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--网站尾-->
+		<div id="wei">
+			<div class="foot">
+				<p>
+					<font>学校地址：江西省南昌市湾里区先锋创客小镇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮编：330041 </font>
+				</p>
+				<p>
+					<font>电话：0791-83792966&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传真：0791-87709377   ©2015 Ahead
+						<font>总访问量：9999999</font>   赣ICP备13005365号-6&nbsp;&nbsp;&nbsp;&nbsp;
+						<a target="_blank" id="zh" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36010502000014">
+							<img src="../image/gu.png" alt="">
+							<span class="STYLE1">赣公网安备 36010502000014号</span>
+						</a>
+					</font>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
